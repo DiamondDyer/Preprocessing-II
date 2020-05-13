@@ -1,10 +1,10 @@
 // Mixins in here
 
-.button(@bg-color:@button-bg, @width:200px, @font-color:@main-bg){
+.button(@bg-color:@button-bg, @width:200px, @font-color:@main-bg, @padding:4%){
     display: block;
     background-color: @bg-color;
     
-    padding:4%;
+    padding:@padding;
     text-align: center;
     cursor: pointer;
     width: @width;
