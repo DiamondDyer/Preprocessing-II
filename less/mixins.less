@@ -1,1 +1,16 @@
 // Mixins in here
+
+.button(@bg-color:@button-bg, @width:200px, @font-color:@main-bg, @padding:4%){
+    display: block;
+    background-color: @bg-color;
+    
+    padding:@padding;
+    text-align: center;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color:@font-color;
+}
+
